@@ -1,0 +1,9 @@
+<h1>Editing Product</h1>
+
+<%= render 'form', product: @product %>
+
+<%= link_to 'Show', @product %> |
+<%= link_to 'Back', products_path %>
+
+<!-- Here, product is the 'parameter' that the partial expects,
+and @product is the value passed in from the controller. -->
