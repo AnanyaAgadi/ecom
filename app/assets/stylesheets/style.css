@@ -1,7 +1,24 @@
+/***Navbar styling***/
+
+nav .nav-item{
+  padding-left: 25px;
+  padding-bottom: 10px
+;
+
+}
+
+
 /****landing page styling****/
 
 /*registration form */
+#reg-head{
+  margin: auto;
+  padding: 36px;
+  text-align: center;
+}
+
 #reg{
   width: 31%;
   margin: auto;
 }
+
