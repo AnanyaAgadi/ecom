@@ -14,7 +14,6 @@
         <p><%= product.description %></p>
         <strong><%= product.price %></strong>
         <%= link_to 'View', product_path(product) %> 
-        
         <%= link_to 'Edit', edit_product_path(product) %>
         <%= link_to 'Destroy', product, method: :delete, data:{ confirm: 'Are you sure?' } %>
       </div><!-- /col -->

@@ -22,3 +22,16 @@ nav .nav-item{
   margin: auto;
 }
 
+/****Contact page styling****/
+
+/**Contact Form**/
+
+.form-st{
+  margin: auto;
+  padding-top: 10px;
+  width: 50%;
+}
+
+.fsub{
+  margin-top: 20px;
+}
